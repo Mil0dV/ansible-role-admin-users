@@ -27,6 +27,7 @@
   user:
     name: '{{item.username|mandatory}}'
     comment: '{{item.fullname|default(omit)}}'
+    uid: '{{item.uid|default(omit)}}'
     group: '{{admin_user_groups|ternary(item.username,omit)}}'
     groups: '{{admin_users_sudo_group}}'
     append: yes

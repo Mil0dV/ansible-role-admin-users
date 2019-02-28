@@ -22,6 +22,7 @@ The following variables may be defined to customize this role:
 
    - `username`: Username of the admin user (required).
    - `fullname`: Full name for the admin user (optional).
+   - `uid`: UID for the admin user (optional).
    - `shell`: Default shell for this user; `admin_users_default_shell` will be
      used if this key is omitted.
    - `pubkey`: The public key to associate with the given user. This value can
